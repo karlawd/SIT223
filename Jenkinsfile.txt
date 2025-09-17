@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: ' https://github.com/karlawd/SIT223-github.git'
+        git branch: 'main', url: ' https://github.com/karlawd/SIT223.git'
       }
     }
     stage('Install Dependencies') {
